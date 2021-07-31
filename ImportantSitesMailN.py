@@ -124,7 +124,7 @@ def Send_Mail():
 	msg.attach(p)
 	s = smtplib.SMTP('smtp.gmail.com', 587)
 	s.starttls()
-	s.login(fromaddr, "Sm110751$")
+	s.login(fromaddr, "<PASSWORD>")
 	text = msg.as_string()
 	s.sendmail(fromaddr, toaddr, text)
 	s.quit()
