@@ -1,0 +1,21 @@
+curl -Is https://cryptomaniaks.com/latest-cryptocurrency-news/best-crypto-sports-betting-sites | head -1 | awk '{print "best-crypto-sports-betting-sites " $2}' > curl.txt
+curl -Is https://cryptomaniaks.com/stake-review | head -1 | awk '{print "stake-review " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-euro-2021-crypto-betting-sites | head -1 | awk '{print "best-euro-2021-crypto-betting-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-bitcoin-casinos | head -1 | awk '{print "best-bitcoin-casinos " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/bitcoin-gambling-sites | head -1 | awk '{print "bitcoin-gambling-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/ethereum-casinos | head -1 | awk '{print "ethereum-casinos " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/ethereum-gambling-sites | head -1 | awk '{print "ethereum-gambling-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-bitcoin-roulette-sites | head -1 | awk '{print "best-bitcoin-roulette-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-way-to-buy-bitcoin | head -1 | awk '{print "best-way-to-buy-bitcoin " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-bitcoin-lending-sites | head -1 | awk '{print "best-bitcoin-lending-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/guides/best-crypto-tools-checklist | head -1 | awk '{print "best-crypto-tools-checklist " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/recommended-websites-tools | head -1 | awk '{print "recommended-websites-tools " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-cryptocurrencies-to-buy | head -1 | awk '{print "best-cryptocurrencies-to-buy " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/how-much-to-invest-bitcoin | head -1 | awk '{print "how-much-to-invest-bitcoin " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/best-bitcoin-poker-sites | head -1 | awk '{print "best-bitcoin-poker-sites " $2}' >> curl.txt
+curl -Is https://cryptomaniaks.com/fr/acheter-bitcoin | head -1 | awk '{print "fr/acheter-bitcoin " $2}' >> curl.txt
+
+#mail -s "CURL" scottmaretick51@gmail.com -a /Users/scott/Desktop/PROD-WORKS/PYTHON/curl.txt
+
+
+
